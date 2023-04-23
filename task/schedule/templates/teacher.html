@@ -1,0 +1,12 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<h3>Name: {{ teacher.name }}</h3>
+<h3>Surname: {{ teacher.surname }}</h3>
+<h3>Age: {{ teacher.age }}</h3>
+<p>{{ teacher.about }}</p>
+
+<p>
+    <a href="/schedule/main/">Go back to the list of courses</a>
+</p>
+{% endblock %}
